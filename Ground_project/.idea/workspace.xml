@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0972f79a-e6fc-447e-8134-3e0bd623b090" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/Mainpage.html" afterDir="false" />
-    </list>
+    <list default="true" id="0972f79a-e6fc-447e-8134-3e0bd623b090" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +57,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -81,6 +86,35 @@
     <option name="height" value="1090" />
   </component>
   <component name="ProjectId" id="1kUqCupPwTe04ZHSQveDCjOM3iI" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Ground_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ground_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ground_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ground_project" type="462c0819:PsiDirectoryNode" />
+              <item name="Ground_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ground_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ground_project" type="462c0819:PsiDirectoryNode" />
+              <item name="Owner" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
