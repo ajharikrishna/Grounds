@@ -67,24 +67,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/templates/Mainpage.html" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="980" />
-    <option name="height" value="1090" />
-  </component>
   <component name="ProjectId" id="1kUqCupPwTe04ZHSQveDCjOM3iI" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -123,18 +105,6 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="Ground_project" type="Python.DjangoServer" factoryName="Django server">
       <module name="Ground_project" />
@@ -165,11 +135,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0972f79a-e6fc-447e-8134-3e0bd623b090" name="Default Changelist" comment="" />
-      <created>1605764243315</created>
+      <changelist id="830a8795-e9bb-43d0-aaa4-1a75773f8635" name="Default Changelist" comment="" />
+      <created>1605765394153</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605764243315</updated>
+      <updated>1605765394153</updated>
     </task>
     <servers />
   </component>
