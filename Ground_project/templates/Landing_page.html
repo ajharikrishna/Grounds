@@ -1,0 +1,288 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grounds</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family: poppins, sans-serif;
+}
+.navbar{
+display: flex;
+align-items: center;
+padding: 20px;
+    {#background-color: red;#}
+    background-image: linear-gradient(red,red);
+    {#position: revert;#}
+{#background-color: turquoise;#}
+{#width: 100%;#}
+}
+nav{
+flex: 1;
+text-align: right;
+}
+.logo{
+color: rgb(7, 3, 3);
+font-weight: bold;
+}
+nav ul{
+display: inline-block;
+list-style-type: none;
+}
+nav ul li{
+display: inline-block;
+margin-right: 20px;
+}
+nav ul li a{
+text-decoration: none;
+font-weight: bold;
+color: black;
+}
+.container{
+max-width: 1300px;
+margin: auto;
+padding-left: 125px;
+padding-right: 25px;
+}
+.row{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.col-2{
+flex-basis: 50%;
+min-width: 300px;
+}
+.col-2 img{
+max-width: 100%;
+padding: 50px 0;
+}
+.col-2 h1{
+font-size: 50px;
+line-height: 60px;
+margin: 25px 0;
+}
+.btn{
+display: inline-block;
+background: rgb(51, 151, 168);
+color: #fff;
+padding: 8px 30px;
+margin: 30px 0;
+border-radius: 30px;
+text-decoration: none;
+}
+.btn:hover{
+background: rgb(35, 171, 255);
+}
+.header{
+{#background: repeating-radial-gradient(#fff,#ffd6d6);#}
+    background: repeating-radial-gradient(#fff,black);
+}
+
+.header .row{
+margin-top: 70px;
+}
+.grounds{
+margin: 70px 0;
+}
+.col-3{
+flex-basis: 30%;
+min-width: 250px;
+margin-bottom: 30px;
+transition: transform 0.10s;
+}
+.col-3 img{
+width: 100%;
+}
+.small-container{
+max-width: 1080px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+}
+.title{
+text-align: center;
+margin: 0 auto 80px;
+position: relative;
+line-height: 60px;
+color: lightslategrey;
+}
+.t1{
+text-align: center;
+margin: 0 auto 80px;
+position: relative;
+line-height: 60px;
+color: #555;
+}
+.t1::after{
+content: '';
+background: #ff523b;
+width: 50px;
+height: 5px;
+border-radius: 5px;
+position: absolute;
+bottom: 0cm;
+left: 50%;
+transform: translateX(-50%);
+}
+h4{
+color: #555;
+font-weight: normal;
+
+}
+.col-3 p{
+font-size: 14px;
+}
+.rating .fa{
+color: goldenrod;
+}
+.col-3:hover{
+transform: translateY(-5px);
+
+}
+.footer{
+background: burlywood;
+color:black;
+font-size: 14px;
+padding: 60px 0 20px;
+}
+.footer h3{
+color: black;
+margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3{
+min-width: 250px;
+margin-bottom: 20px;
+}
+.footer-col-1{
+flex-basis: 30%;
+}
+.footer-col-2{
+flex: 1;
+}
+.footer-col-2{
+width: 18px;
+}
+    </style>
+
+
+</head>
+<body>
+    <div class="header">
+
+        <div class="navbar">
+            <div class="logo">
+                <h3>Grounds</h3>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="{% url 'dashboard' %}">Dashboard</a></li>
+                    <li><a href="#">Matches</a>
+                    </li>
+                    <li><a href="#">Settings</a></li>
+                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <h1>Play Cricket!</h1>
+                <p>Cricket is quite a Gentleman, Harmless. <br>
+                     But he is a lucky man who has not to sweat some blood before he’s done with it.</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="{% static 'images/imag1.png' %}" height="410px">
+{#                <img src="imag1.JPG" height="410px">#}
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="grounds">
+        <div class="small-container">
+            <h2 class="t1">Grounds</h2>
+            <div class="row">
+                <div class="col-3">
+{#                    <img src="photo-1549871101-052c73f2d002.jpg">#}
+                    <img src="{% static 'images/photo-1549871101-052c73f2d002.jpg' %}">
+
+                    <h4>Chepauk Stadium</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+
+                </div>
+                <div class="col-3">
+{#                    <img src="photo-1563184956-7a02a2852738.jpg">#}
+                    <img src="{% static 'images/photo-1563184956-7a02a2852738.jpg' %}">
+                    <h4>Kotla Stadium</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+
+                </div>
+                <div class="col-3">
+{#                    <img src="photo-1563184956-7a02a2852738.jpg" >#}
+                    <img src="{% static 'images/photo-1563184956-7a02a2852738.jpg' %}">
+                    <h4>Rajiv Stadium</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Visit our Link</h3>
+
+                </div>
+                <div class="footer-col-2">
+{#                    <img src="g1 (1).png" width="200px" height="150px">#}
+                    <img src="{% static 'images/g1 (1).png' %}" width="200px" height="150px">
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Whatsapp</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

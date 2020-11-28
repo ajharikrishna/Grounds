@@ -15,12 +15,23 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.views.generic import TemplateView
+
+from Owner import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('',views.mainpage,name='mainpage'),
+    path('dashboard/',TemplateView.as_view(template_name='dashboard.html'),name='dashboard'),
+    path('owner_profile/',TemplateView.as_view(template_name='owner_profile.html'),name='owner_profile'),
+    path('my_grounds/',TemplateView.as_view(template_name='my_grounds.html'),name='my_grounds'),
+    path('my_bookings/',TemplateView.as_view(template_name='Bookings.html'),name='my_bookings'),
+    path('my_earnings/',TemplateView.as_view(template_name='Earnings.html'),name='my_earnings'),
 
 
 
 
 
 ]
+
+

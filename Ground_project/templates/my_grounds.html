@@ -1,0 +1,319 @@
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+.name {
+  float: right;
+  width: 80%;
+  height: 150px;
+  background-image: url('cricgro.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  padding-right: 10px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+button{
+  float: left;
+}
+
+.name h2{
+  text-indent: -14em;
+  margin: 0px;
+
+}
+
+.name h5{
+  text-indent: -28em;
+  margin: 0px;
+}
+.rating {
+  direction: rtl;
+  padding-right: 650px;
+
+}
+.rating input{
+  display: none;
+}
+.rating label{
+  display: inline-block;
+  width: 5px;
+  position: relative;
+  cursor: pointer;
+  padding: 5px;
+
+}
+.rating label:before{
+  content: "\2605";
+  position: absolute;
+  font-size: 20px;
+  display: inline-block;
+  top: 0;
+  left: 0;
+}
+.rating label:after{
+  content: "\2605";
+  position: absolute;
+  font-size: 20px;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  color: yellow;
+  opacity: 0;
+}
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:hover ~ label:after{
+  opacity: 1;
+}
+.container{
+  position: relative;
+  left: 140px;
+  top: 10px;
+
+}
+.button{
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  float: right;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#name h2{
+  color: red;
+
+}
+.gro2{
+  float: right;
+  width: 80%;
+  height: 150px;
+  background-image: url('vs.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  padding-right: 10px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.gro2 h2{
+  text-indent: -15em;
+  margin: 0px;
+
+}
+
+.gro2 h5{
+  text-indent: -30em;
+  margin: 0px;
+}
+.rating2{
+  direction: rtl;
+  padding-right: 700px;
+}
+.rating2 input{
+  display: none;
+}
+.rating2 label{
+  display: inline-block;
+  width: 5px;
+  position: relative;
+  cursor: pointer;
+  padding: 5px;
+}
+.rating2 label:before{
+  content: "\2605";
+  position: absolute;
+  font-size: 20px;
+  display: inline-block;
+  top: 0;
+  left: 0;
+}
+.rating2 label:after{
+  content: "\2605";
+  position: absolute;
+  font-size: 20px;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  color: yellow;
+  opacity: 0;
+}
+.rating2 label:hover:after,
+.rating2 label:hover ~ label:after,
+.rating2 input:hover ~ label:after{
+  opacity: 1;
+}
+.container2{
+  position: relative;
+  left: 140px;
+  top: 10px;
+
+}
+.button2{
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  float: right;
+}
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button2:hover span {
+  padding-right: 25px;
+}
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.btn btn-primary{
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  float: right;
+}
+
+</style>
+</head>
+<body>
+<div id="content">
+  <div class="view">
+    <button>MyGrounds</button>
+
+  </div>
+
+    <div class="name">
+      <h2 align="center">Suntech Grounds</h2>
+      <h5 align="center">Madhapur,Hyderabad</h5>
+    <div class="rating">
+      <input type="radio" name="rating" id="star1"><label for="star1"></label>
+      <input type="radio" name="rating" id="star2"><label for="star2"></label>
+      <input type="radio" name="rating" id="star3"><label for="star3"></label>
+      <input type="radio" name="rating" id="star4"><label for="star4"></label>
+      <input type="radio" name="rating" id="star5"><label for="star5"></label>
+    </div>
+    <div class="container">
+    <label class="container">Pavilion
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+    </label>
+    <label class="container">Flood lights
+        <input type="checkbox">
+        <span class="checkmark"></span>
+    </label>
+    <label class="container">Parking
+        <input type="checkbox">
+        <span class="checkmark"></span>
+    </label>
+    <label class="container">Wash Room
+        <input type="checkbox">
+        <span class="checkmark"></span>
+    </label>
+    </div>
+      <button class="button"><span>View</span></button>
+      <button type="button" class="btn btn-primary">Edit</button>
+    </div>
+
+
+    <div class="gro2">
+      <h2 align="center">Madhapur grounds</h2>
+      <h5 align="center">Madhapur,Hyderabad</h5>
+    <div class="rating2">
+      <input type="radio" name="rating" id="star1"><label for="star1"></label>
+      <input type="radio" name="rating" id="star2"><label for="star2"></label>
+      <input type="radio" name="rating" id="star3"><label for="star3"></label>
+      <input type="radio" name="rating" id="star4"><label for="star4"></label>
+      <input type="radio" name="rating" id="star5"><label for="star5"></label>
+    </div>
+    <div class="container2">
+    <label class="container2">Pavilion
+        <input type="checkbox" checked="checked">
+        <span class="checkmark2"></span>
+    </label>
+    <label class="container2">Flood lights
+        <input type="checkbox">
+        <span class="checkmark2"></span>
+    </label>
+    <label class="container2">Parking
+        <input type="checkbox">
+        <span class="checkmark2"></span>
+    </label>
+    <label class="container2">Wash Room
+        <input type="checkbox">
+        <span class="checkmark2"></span>
+    </label>
+    </div>
+      <button class="button2"><span>View</span></button>
+    </div>
+</body>
+</html>
+</div>
+
+</body>
+</html>
